@@ -10,7 +10,7 @@ exports.loginPage = async (req, res) => {
 
     if (!userData) {
       res.render('login', {
-        message: "User not found, please try again.",
+        message: "Username doesn't exist, please try again.",
       });
       return;
     }

@@ -15,6 +15,9 @@ exports.signupPage = async (req, res) => {
         res.redirect('/dashboard');
       });
     } catch (err) {
-      res.status(500).json(err);
+      res.render('signup', {
+        message: "Username already exists.",
+      });
+      return;
     }
   };
