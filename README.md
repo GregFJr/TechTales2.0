@@ -44,3 +44,7 @@ TechTales is a CMS-style blog platform tailored for developers to share their ex
 
 ## Herkoku link
 [TechTales](https://techtales2-801f0b121fcd.herokuapp.com/login)
+
+## Screenshots
+![Home](/public/home.png)
+![Dashboard](/public/dashboard.png)
