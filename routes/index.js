@@ -5,7 +5,7 @@ const postRoutes = require('./postRoutes');
 const homeRoutes = require('./homeRoutes');
 const loginRoutes = require('./loginRoutes');
 const signupRoutes = require('./signupRoutes');
-const dashboardRoutes = require('./dashBoardRoutes');
+const dashboardRoutes = require('./dashboardRoutes');
 const logoutRoutes = require('./logoutRoutes');
 
 router.use('/', homeRoutes);
