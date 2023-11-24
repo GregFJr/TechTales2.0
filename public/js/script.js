@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     deleteLinks.forEach(link => {
         link.addEventListener('click', function(event) {
-            event.preventDefault(); // Prevent the default anchor behavior
+            event.preventDefault(); 
             const postId = event.currentTarget.getAttribute('data-id');
 
             fetch(`/post/delete/${postId}`, {
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then(response => {
                 if (response.ok) {
-                    // Remove the post from the DOM or redirect as required
+                    
                     window.location.reload();
                 } else {
                     console.error('Failed to delete post');
