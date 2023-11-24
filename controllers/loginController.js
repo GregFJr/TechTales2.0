@@ -9,7 +9,9 @@ exports.loginPage = async (req, res) => {
     });
 
     if (!userData) {
-      res.status(400).json({ message: "User not found" });
+      res.render('login', {
+        message: "User not found, please try again.",
+      });
       return;
     }
 
@@ -23,7 +25,9 @@ exports.loginPage = async (req, res) => {
         res.redirect("/");
       });
     } else {
-      res.status(400).json(userData);
+      res.render('login', {
+        message: "Incorrect password, please try again.",
+      });
     }
   } catch (err) {
     res.status(500).json(err);
