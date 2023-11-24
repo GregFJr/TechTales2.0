@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const withAuth = require('../utils/auth');
-const dashBoardController = require('../controllers/dashboardController');
+const dashBoardController = require('../controllers/dashBoardController');
 
 
 router.get('/', withAuth, dashBoardController.renderDashboard);
