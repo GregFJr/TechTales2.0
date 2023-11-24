@@ -3,8 +3,9 @@
 {{#each postData}}
 <section class="post">
 <h2>{{title}}</h2>
-<p>{{content}}</p>
-<p>Posted By: {{user.username}}</p>
+<p class="home-content">{{content}}</p>
+<p class="posted">Posted By: {{user.username}}</p>
+<p class="posted">Posted On: {{formatDate this.createdAt 'MMMM Do YYYY'}}</p>
 </section>
 {{/each}}
 </main>

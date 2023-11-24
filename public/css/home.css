@@ -45,9 +45,20 @@ body, html {
     width: 95%;
 }
 
-.post p {
+.home-content {
     padding-left: 10px; 
     font-size: 22px;
+}
+
+.posted:nth-child(odd) {
+    margin-bottom: 1px;
+}
+.posted:nth-child(even) {
+    margin-bottom: 1px;
+}
+.posted {
+    font-size: 18px;;
+    padding-left: 10px;
 }
 
 nav {
@@ -83,7 +94,8 @@ nav a {
 }
 
 .edit-post {
-    padding: 0 5px;
+    padding: 0 5px 0 10px;
+    
 }
 
 .logo {
