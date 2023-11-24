@@ -1,0 +1,10 @@
+{{> navbar }}
+<main class="main-posts">
+{{#each postData}}
+<section class="post">
+<h2>{{title}}</h2>
+<p>{{content}}</p>
+<p>Posted By: {{user.username}}</p>
+</section>
+{{/each}}
+</main>
