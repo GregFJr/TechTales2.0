@@ -10,7 +10,7 @@ TechTales is a CMS-style blog platform tailored for developers to share their ex
 - **Blog Interaction**: Users can read detailed blog posts, which include the title, content, author's username, and the date of posting.
 - **Post Management**: Users can contribute new blog posts and manage (update or delete) their existing ones from the dashboard.
 - **Secure Logout**: Users can log out of the site, which secures their session.
-- **Session Timeout**: For enhanced security, users are prompted to log in again after a period of inactivity.
+
 
 ## Usage
 
@@ -23,6 +23,7 @@ TechTales is a CMS-style blog platform tailored for developers to share their ex
 ## Upcoming Features
 
 - **Comment System**: A forthcoming feature will allow users to comment on blog posts, fostering community interaction and discussion.
+- **Session Timeout**: A minor feature, users will be prompted to log in again after a period of inactivity.
 
 ## Technical Stack
 
@@ -41,10 +42,5 @@ TechTales is a CMS-style blog platform tailored for developers to share their ex
 5. Use Sequelize CLI to set up your database.
 6. Start the app with `npm start` and head to `localhost:3001` in your browser.
 
-## Contributions
-
-Contributions are always welcome! Please fork the repo and submit a pull request with your ideas.
-
----
-
-Join TechTales and start sharing your tech stories with a growing community!
+## Herkoku link
+[TechTales](https://techtales2-801f0b121fcd.herokuapp.com/login)
