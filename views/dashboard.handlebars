@@ -1,7 +1,7 @@
 {{> navbar }}
 
 <body>
-    <h1 class="dash-header"> Your Dashboard</h1>
+    <h1 class="dash-header"> {{username}}'s Dashboard</h1>
     <a href="/dashboard/add-form" class="add-post">Add New Post</a>
 
     <div>
@@ -9,7 +9,6 @@
         <div class="post">
             <h2>{{this.title}}</h2>
             <p class="home-content">{{this.content}}</p>
-            <p class="posted">Posted By: {{user.username}}</p>
             <p class="posted">Posted On: {{formatDate this.createdAt 'MMMM Do YYYY'}}</p>
             <a href="/dashboard/update-form/{{this.id}}" class="edit-post">Edit</a> | <a href="#" class="delete-post" data-id="{{this.id}}">Delete</a>
 
